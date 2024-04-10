@@ -31,6 +31,7 @@ Last access= 09-April-2024
 This repository contains 6 folders. 
 1. A folder called `excel_data` which contains the following excel files:
     - An Excel file: `data_exclu_20-21.xlsx`
+    - A folder `EDA_data` which has 2 excel file (`EDA_LABOUR.xlsx` and `EDA_MIGRATION.xlsx`
     - A folder `Result_all_models` which has 3 folders.
       - ARIMA (It has 2 files with metrics and predictions results)
       - GM11 (It has 2 files with metrics and predictions results)
