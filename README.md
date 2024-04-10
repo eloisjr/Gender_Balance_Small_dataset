@@ -12,7 +12,7 @@ Gender Balance, Overseas Migration, Australia Labour Market, Diversity in Workpl
 
 ## Problem statement 
  
-Achieving gender balance in the Australian labour force and overseas migration is essential for fostering equality, diversity, and inclusion in workplaces and communities. Overseas migration plays a crucial role in shaping this balance, as migrants of all genders bring unique skills, experiences, and perspectives that can contribute to a more diverse and inclusive workforce. Predicting and understanding gender dynamics at the state/territory level is a significant challenge, as labour force participation and migration patterns are influenced by a complex interplay of socio-economic factors, cultural norms, and policy environments. Analyzing labor force and overseas migration data, categorized by gender and considering regional differences, reveals insights crucial for promoting equal opportunities, creating diverse and equitable workplaces, and fostering social cohesion in Australia's multicultural landscape.
+Achieving Gender Balance (GB) in the Australian labour force and overseas migration is essential for fostering equality, diversity, and inclusion in workplaces and communities. Overseas migration plays a crucial role in shaping this balance, as migrants of all genders bring unique skills, experiences, and perspectives that can contribute to a more diverse and inclusive workforce. Predicting and understanding gender dynamics at the state/territory level is a significant challenge, as labour force participation and migration patterns are influenced by a complex interplay of socio-economic factors, cultural norms, and policy environments. Analyzing labor force and overseas migration data, categorized by gender and considering regional differences, reveals insights crucial for promoting equal opportunities, creating diverse and equitable workplaces, and fostering social cohesion in Australia's multicultural landscape.
 
 ## Methodoly
 This research focuses mainly on predicting gender equality by sex and state/territory. Therefore, diverse factors that contribute to measuring gender equality were taken into consideration including overseas migration by state/territory classified by sex from 2004 onwards and labor Force status by sex, state, and territory from 1978 onwards. Both dataset has different periods (years). Consequently, it was considered from 2004 to 2022.
@@ -20,7 +20,17 @@ This research focuses mainly on predicting gender equality by sex and state/terr
 **Assumptions:** 
 - It was assumed that the count of employees encompasses individuals from diverse backgrounds, including migrants, citizens, and Aboriginal peoples.
 
-  ## Dataset source
+  ## Australian Bureau of Statistics: Data source
  
-  [Net overseas migration, Arrivals, departures and net, State/territory, Age and sex - Calendar years, 2004 onwards](https://explore.data.abs.gov.au/vis?tm=Migration&pg=0&df[ds]=ABS_ABS_TOPICS&df[id]=NOM_CY&df[ag]=ABS&df[vs]=1.0.0&pd=2004%2C&dq=1%2B2%2B3.TOT.1%2B2%2B3..A&ly[cl]=TIME_PERIOD&ly[rw]=REGION&ly[rs]=SEX%2CMEASURE)
-  last access= 09-April-2024
+ - [Net overseas migration, Arrivals, departures and net, State/territory, Age and sex - Calendar years, 2004 onwards](https://explore.data.abs.gov.au/vis?tm=Migration&pg=0&df[ds]=ABS_ABS_TOPICS&df[id]=NOM_CY&df[ag]=ABS&df[vs]=1.0.0&pd=2004%2C&dq=1%2B2%2B3.TOT.1%2B2%2B3..A&ly[cl]=TIME_PERIOD&ly[rw]=REGION&ly[rs]=SEX%2CMEASURE)
+  Last access= 09-April-2024
+- [Labour Force status by Sex, State and Territory - Number of people employed, unemployed and not in the labour force, monthly, February 1978 and onwards](https://explore.data.abs.gov.au/vis?tm=labour%20force&pg=0&df[ds]=ABS_ABS_TOPICS&df[id]=LF&df[ag]=ABS&df[vs]=1.0.0&hc[Measure]=Labour%20Force&hc[ABS%20Topics]=LABOUR&pd=2004-01%2C2023-12&dq=M3.3%2B2%2B1.1599.30.1%2B2%2B3%2B4%2B5%2B6%2B7%2B8.M&ly[cl]=TIME_PERIOD&vw=tb)
+- Last access= 09-April-2024
+
+  ## Run code
+This repository contains 5 folders. 
+1. A folder called "excel_data" which contains the following excel files:
+2. A folder called "EDA_oversea_migration_labour_force" with a file known as EDA_Migration_Employment_plots.ipynb. It plots Gender Balance (GB) in overseas migration and labor force by gender and Australian State/Territory.
+3. A folder called `Gender_balance_index_plot`
+1. 
+  
