@@ -17,5 +17,10 @@ Achieving gender balance in the Australian labour force and overseas migration i
 ## Methodoly
 This research focuses mainly on predicting gender equality by sex and state/territory. Therefore, diverse factors that contribute to measuring gender equality were taken into consideration including overseas migration by state/territory classified by sex from 2004 onwards and labor Force status by sex, state, and territory from 1978 onwards. Both dataset has different periods (years). Consequently, it was considered from 2004 to 2022.
 
-**Assumtions** 
-It was assumed that the count of employees encompasses individuals from diverse backgrounds, including migrants, citizens, and Aboriginal peoples.
+**Assumptions:** 
+- It was assumed that the count of employees encompasses individuals from diverse backgrounds, including migrants, citizens, and Aboriginal peoples.
+
+  ## Dataset source
+ 
+  [Net overseas migration, Arrivals, departures and net, State/territory, Age and sex - Calendar years, 2004 onwards](https://explore.data.abs.gov.au/vis?tm=Migration&pg=0&df[ds]=ABS_ABS_TOPICS&df[id]=NOM_CY&df[ag]=ABS&df[vs]=1.0.0&pd=2004%2C&dq=1%2B2%2B3.TOT.1%2B2%2B3..A&ly[cl]=TIME_PERIOD&ly[rw]=REGION&ly[rs]=SEX%2CMEASURE)
+  last access= 09-April-2024
