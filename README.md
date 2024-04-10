@@ -25,11 +25,17 @@ This research focuses mainly on predicting gender equality by sex and state/terr
  - [Net overseas migration, Arrivals, departures and net, State/territory, Age and sex - Calendar years, 2004 onwards](https://explore.data.abs.gov.au/vis?tm=Migration&pg=0&df[ds]=ABS_ABS_TOPICS&df[id]=NOM_CY&df[ag]=ABS&df[vs]=1.0.0&pd=2004%2C&dq=1%2B2%2B3.TOT.1%2B2%2B3..A&ly[cl]=TIME_PERIOD&ly[rw]=REGION&ly[rs]=SEX%2CMEASURE)
   Last access= 09-April-2024
 - [Labour Force status by Sex, State and Territory - Number of people employed, unemployed and not in the labour force, monthly, February 1978 and onwards](https://explore.data.abs.gov.au/vis?tm=labour%20force&pg=0&df[ds]=ABS_ABS_TOPICS&df[id]=LF&df[ag]=ABS&df[vs]=1.0.0&hc[Measure]=Labour%20Force&hc[ABS%20Topics]=LABOUR&pd=2004-01%2C2023-12&dq=M3.3%2B2%2B1.1599.30.1%2B2%2B3%2B4%2B5%2B6%2B7%2B8.M&ly[cl]=TIME_PERIOD&vw=tb)
-- Last access= 09-April-2024
+Last access= 09-April-2024
 
   ## Run code
 This repository contains 6 folders. 
 1. A folder called `excel_data` which contains the following excel files:
+    - An Excel file: `data_exclu_20-21.xlsx`
+    - A folder `Result_all_models` which has 3 folders.
+      - ARIMA (It has 2 files with metrics and predictions results)
+      - GM11 (It has 2 files with metrics and predictions results)
+      - GM21 (It has 2 files with metrics and predictions results)
+      - predict_next_5years has `future_pred_GM11.ipynb` results.
 2. A folder called `EDA_oversea_migration_labour_force` with a file known as `EDA_Migration_Employment_plots.ipynb`. It plots Gender Balance (GB) in overseas migration and labor force by gender and Australian State/Territory.
 3. A folder called `Gender_balance_index_plot` with a file known as `gender_balance_index.ipynb`. it plots the GB index.
 4. A folder called `Forecasting model` with three **ipynb** files. It contains `ARIMA_model.ipynb`, `Grey_Model_11.ipynb`, and `Grey_Model_21.ipynb`.
