@@ -28,9 +28,16 @@ This research focuses mainly on predicting gender equality by sex and state/terr
 - Last access= 09-April-2024
 
   ## Run code
-This repository contains 5 folders. 
-1. A folder called "excel_data" which contains the following excel files:
-2. A folder called "EDA_oversea_migration_labour_force" with a file known as EDA_Migration_Employment_plots.ipynb. It plots Gender Balance (GB) in overseas migration and labor force by gender and Australian State/Territory.
-3. A folder called `Gender_balance_index_plot`
-1. 
-  
+This repository contains 6 folders. 
+1. A folder called `excel_data` which contains the following excel files:
+2. A folder called `EDA_oversea_migration_labour_force` with a file known as `EDA_Migration_Employment_plots.ipynb`. It plots Gender Balance (GB) in overseas migration and labor force by gender and Australian State/Territory.
+3. A folder called `Gender_balance_index_plot` with a file known as `gender_balance_index.ipynb`. it plots the GB index.
+4. A folder called `Forecasting model` with three **ipynb** files. It contains `ARIMA_model.ipynb`, `Grey_Model_11.ipynb`, and `Grey_Model_21.ipynb`.
+5. A folder called `Compare_models`. It has 2 files including `compare_metrics.ipynb` and `compare_models.ipynb`. Compare all metrics and models across all Australian States/territories. 
+6. A folder called  `Prediction_next_5years` has a `prediction_next_5_years.ipynb` file. This file predict the next 5 years applying GM11. 
+
+
+## Observations
+
+Each .ipynb file includes its own set of instructions along with guidance on which Excel files should be loaded.
+   
