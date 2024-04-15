@@ -50,6 +50,6 @@ Each .ipynb file includes its own set of instructions along with guidance on whi
 
 ## Academic Paper
 
-Academic paper was writting in "overleaf" platform. You can access [here] (https://www.overleaf.com/project/65e54fe850da56c3b71ed9bb)
+Academic paper was writting in "overleaf" platform. You can access [here](https://www.overleaf.com/project/65e54fe850da56c3b71ed9bb)
 https://www.overleaf.com/project/65e54fe850da56c3b71ed9bb
 
