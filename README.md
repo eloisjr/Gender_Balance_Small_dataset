@@ -47,4 +47,9 @@ This repository contains 6 folders.
 ## Observations
 
 Each .ipynb file includes its own set of instructions along with guidance on which Excel files should be loaded.
-   
+
+## Academic Paper
+
+Academic paper was writting in "overleaf" platform. You can access [here](https://www.overleaf.com/project/65e54fe850da56c3b71ed9bb)
+https://www.overleaf.com/project/65e54fe850da56c3b71ed9bb
+
