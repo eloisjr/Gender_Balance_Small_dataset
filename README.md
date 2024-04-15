@@ -1,4 +1,4 @@
-# Gender Balance with Small Dataset
+# Small scale predictive analysis of gender balance in Australia using Grey models: Integrating Labour force and Migration data
 
 ## Summary 
 
